@@ -1,0 +1,4 @@
+ # crashsight sdk
+-keep public class com.uqm.crashsight.** { *; }
+-dontwarn com.uqm.crashsight.core.**
+-keep class com.uqm.crashsight.core.** { *; }

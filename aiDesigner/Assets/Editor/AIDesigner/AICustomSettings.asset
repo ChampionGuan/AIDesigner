@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9770eaec0f4f2fa4fa75519b94089364, type: 3}
+  m_Name: AICustomSettings
+  m_EditorClassIdentifier: 
+  UsedFor: 0
+  LuaRootPath: Assets/
+  DefinePath: []
+  BattleConfigPath: Cfgs/
+  BattleEditorConfigPath: Cfgs/Editor/
+  BattleTaskPath:
+  - Tasks
+  - Logic/AIDesigner/Task/
+  SystemConfigPath: Cfgs/
+  SystemEditorConfigPath: Cfgs/Editor/
+  SystemTaskPath:
+  - Tasks
+  - Logic/AIDesigner/Task/
+  AIVarPath: Logic/AIDesigner/Base/AIVar
+  AIDefinePath: Logic/AIDesigner/Base/AIDefine
+  TreeReaderFilePath: Editor/AIDesigner/Lua/TreeReader.lua
+  TreeWriterFilePath: Editor/AIDesigner/Lua/TreeWriter.lua
+  TreeDebugFilePath: Editor/AIDesigner/Lua/TreeDebug.lua
+  OptionReaderFilePath: Editor/AIDesigner/Lua/OptionReader.lua

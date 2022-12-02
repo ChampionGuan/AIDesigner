@@ -1,0 +1,12 @@
+framework module CrashSight {
+	umbrella header "CrashSight.h"
+	
+	export *
+	module * { export * }
+	
+	link framework "Foundation"
+	link framework "Security"
+	link framework "SystemConfiguration"
+	link "c++"
+	link "z"
+}

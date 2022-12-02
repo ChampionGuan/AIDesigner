@@ -1,0 +1,1 @@
+{"tickInterval":0,"entry":{"task":{"path":"Logic.AIDesigner.Task.Entry.Entry","hashID":-1650425856},"children":[{"task":{"abortType":0,"path":"Logic.AIDesigner.Task.Composite.Parallel","hashID":928304128},"children":[{"task":{"vars":[{"type":2,"key":"text","value":"","isShared":true}],"path":"Tasks.Log","hashID":-340317184}}]}]}}
